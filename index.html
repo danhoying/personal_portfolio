@@ -3,44 +3,78 @@
   <head>
     <meta charset="UTF-8">
     <title>Personal Portfolio</title>
-    
-    
-    
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-
-        <link rel="stylesheet" href="css/style.css">
-
-    
-    
-    
+    <link rel="stylesheet" href="css/style.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
   </head>
-
   <body>
-
-    <div class="header">
-  Daniel Hoying
-</div>
-<div class="subtext">
-  Web Developer
-  <p>
-    <em>- Let Me Take Your Business Higher -</em>
-  </p>
-</div>
-<div class="container">
-  <dl>
-    <dt><h2>PROFILE</h2></dt>
-    <dd>
-      I am a self-taught full-stack web developer based in Seattle learning the craft via online courses such as Free Code Camp and The Odin Project. Being highly motivated and pushing myself to the limit is part of who I am. Allow me to bring that drive and dedication to learn and apply it within your company.
-    </dd>
-    <dt><h2>PROJECTS</h2></dt>     
-  </dl>
-
-</div>
+    <a name="home"></a>
+    <div class="center">
+      <div class="header">
+        <a href="#home">Home</a> |
+        <a href="#headline1">Profile</a> |
+        <a href="#headline2">Experience</a> |
+        <a href="#headline3">Projects</a> |
+        <a href="#headline4">Contact</a>
+      </div>
+    </div>
+    <div class="title">
+      Daniel Hoying
+    </div>
+    <div class="subtext">
+      Web Developer
+    </div>
+    <div class="container">
+      <dl>
+        <a name="headline1"></a>
+        <div class="spacing">
+          <dt><h2>PROFILE</h2></dt>
+          <dd>
+            I am a self-taught full-stack web developer based in Seattle learning the craft via online courses such as Free Code Camp and The Odin Project. Being highly motivated and pushing myself to the limit is part of who I am. Allow me to bring that drive and dedication to learn and apply it within your company.
+          </dd>
+        </div>
+        <a name="headline2"></a>
+        <div class="spacing">
+          <dt><h2>EXPERIENCE</h2></dt>
+          <dd>
+            <ul>
+              <li>Ruby/Ruby on Rails</li>
+              <li>Python</li>
+              <li>Javascript</li>
+              <li>jQuery</li>
+              <li>HTML5/CSS3</li>
+              <li>Bootstrap</li>
+              <li>RSpec/TDD</li>
+              <li>Git</li>
+              <li>Vim</li>
+              <li>Linux Environment/Command Line</li>
+            </ul>
+          </dd>
+        </div>
+        <a name="headline3"></a>
+        <div class="spacing">
+          <dt><h2>PROJECTS</h2></dt>
+            <dd><em>Chess in Ruby with game save/load feature.</em></dd>
+            <img src="images/chess.png" class="img-responsive gradient thumb"></img>
+            <dd><em>A clone of the Google homepage.</em></dd>
+            <img src="images/google.png" class="img-responsive gradient thumb"></img>
+            <dd><em>A jQuery app that acts similar to the Etch-A-Sketch toy.</em></dd>
+            <img src="images/sketchpad.png" class="img-responsive gradient thumb"></img>
+            <dd><em>A tribute page dedicated to the astronomer Carl Sagan.</em></dd>
+            <img src="images/tribute.png" class="img-responsive gradient thumb"></img>
+        </div>
+        <a name="headline4"></a>
+        <div class="spacing">
+          <dt><h2>CONTACT ME</h2></dt>
+          <a class="btn btn-primary" href="https://github.com/danhoying" role="button" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i>
+            Github</a>
+          <a class="btn btn-primary" href="https://www.linkedin.com/in/daniel-hoying-b82aa384" role="button" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a>
+          <a class="btn btn-primary" href="https://www.freecodecamp.com/danhoying" role="button" target="_blank"><i class="fa fa-fire" aria-hidden="true"></i>
+            Free Code Camp</a>
+        </div>
+      </dl>
+    </div>
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-
-    
-    
-    
-    
+    <script src="js/index.js"></script>
   </body>
 </html>

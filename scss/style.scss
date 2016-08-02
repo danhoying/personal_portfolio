@@ -1,5 +1,5 @@
 body {
-      background: url("http://www.mrwallpaper.com/wallpapers/sunset-over-clouds-1920x1080.jpg") no-repeat center center fixed;
+  background: url("../images/sunset-over-clouds-1920x1080.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,19 +11,40 @@ body {
 }
 
 .center {
-  width: 800px;
-  margin: 0 auto;
+  width: 850px;
+  margin: 0px auto;
 }
 
 .container {
   background-color: #FAEBD7;
+  border: 3px solid black;
   width: 850px;
   text-align: left;
   font-size: 20px;
 }
 
 .header {
-  padding-top: 20px;
+  height: 50px;
+  background: #FAEBD7;
+  border: 3px solid black;
+  width: 850px;
+  margin: 0px auto;
+  top: 0px;
+  position: fixed;
+  font-size: 30px;
+
+  a:visited, a:link, a:active {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    color: blue;
+  }
+}
+
+.title {
+  padding-top: 50px;
   color: white;
   font-family: franchise, sans-serif;
   font-size: 80px;
@@ -38,4 +59,22 @@ body {
   font-size: 30px;
   font-weight: 300;
   text-shadow: black -1px 1px 1px;
+}
+
+.thumb {
+  max-width: 79%;
+  margin-bottom: 30px
+}
+
+.spacing {
+  padding-top: 30px;
+}
+
+.gradient { 
+  border: 10px solid;
+  border-image: linear-gradient(blue, red) 100;
+}
+
+.link-animation {
+  font-weight: 900;
 }
